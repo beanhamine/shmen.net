@@ -1,0 +1,213 @@
+.shmen {
+    font-family: verdana;
+    font-weight: bold;
+    text-align: left;
+    font-size: 35px;
+    color: rgb(0, 221, 255);
+    text-shadow: rgb(0, 0, 0) 2px 2px 20px;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #000000, #2c0e1e, #4c103f, #64196d, #6a2fa6, #6147c4, #4c5de2, #0073ff, #0084ff, #0093ff, #25a1ff, #47afff);
+    background-attachment: fixed; /*edit*/
+}
+
+.menu {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 5%;
+}
+
+.menu ul {
+	list-style: none;
+	display: flex;
+}
+
+.menu ul li {
+	padding: 10px 30px;
+}
+
+.menu ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.menu ul li a:hover {
+	color: white;
+}
+
+.node {
+	position: absolute;
+	top: 125px;
+	left: 100px;
+	width: 250px;
+	height: 386px;
+	margin: auto;
+	text-align: center;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.node button {
+	border: none;
+	padding: 12px;
+	text-align: center;
+	width:100%;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.node button:hover {
+	opacity: 0.75;
+}
+
+.lnnode {
+	position: absolute;
+	top: 125px;
+	left: 550px;
+	width: 250px;
+	height: 386px;
+	margin: auto;
+	text-align: center;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.lnnode button {
+	border: none;
+	padding: 12px;
+	text-align: center;
+	width:100%;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.lnnode button:hover {
+	opacity: 0.75;
+}
+
+.card-text {
+	margin-top: 10px;
+	font-family: sans-serif;
+}
+
+.description {
+	font-family: sans-serif;
+}
+
+.connect {
+	width: 90%;
+	margin-top: 10px;
+}
+
+.donate {
+	position: absolute;
+	top: 125px;
+	right: 100px;
+	width: 250px;
+	height: 386px;
+	margin: auto;
+	text-align: center;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.donate button {
+	border: none;
+	padding: 12px;
+	text-align: center;
+	width:100%;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.donate button:hover {
+	opacity: 0.75;
+}
+
+.shmenwallet {
+	position: absolute;
+	top: 125px;
+	right: 550px;
+	width: 250px;
+	height: 386px;
+	margin: auto;
+	text-align: center;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.shmenwallet button {
+	border: none;
+	padding: 12px;
+	text-align: center;
+	width:100%;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.shmenwallet button:hover {
+	opacity: 0.75;
+}
+
+.gray-out {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+}
+
+.donation-gui {
+	position: absolute;
+	width: 400px;
+	height: 350px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	opacity: 0.90;
+}
+
+.donation-text {
+	font-family: sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.my-addr {
+	font-family: sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.qr {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.maintenance {
+	position: absolute;
+	height: 350px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-family: sans-serif;
+	font-size: 32px;
+}
+
+.under {
+	position: absolute;
+	height: 350px;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+}
